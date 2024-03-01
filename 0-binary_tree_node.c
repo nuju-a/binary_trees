@@ -6,7 +6,7 @@
   *Description: task 0
   *Return: return pointer to new node or NULL if fail
   */
-binary_tree_t *binary_tree_node(binary_tree_t *parent, int value) :
+binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
 	/*declare pointer to new node and pointer for insertion*/
 	binary_tree_t *new_node = NULL;
